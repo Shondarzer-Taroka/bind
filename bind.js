@@ -13,6 +13,7 @@ function myfunction(c,d,e) {
 //total()
 //myfunction.bind({a:5,b:7},88,90,5)
 myfunction.call(Object(obj),9,8)
+myfunction.call(Object(obj),10,8)
 
 var obj={
     a:5,
